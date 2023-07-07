@@ -1,15 +1,23 @@
-// C++ program to display "Hello World"
-
-// Header file for input output functions
 #include <iostream>
 using namespace std;
 
-// Main() function: where the execution of
-// program begins
+
+
+
 int main()
 {
-	// Prints hello world
-	cout << "Hello World";
-
-	return 0;
+   int a=0, b=1,n, c;
+   cout<<"enter no";
+   cin>>n;
+   cout<<a<<b;
+   
+   
+   for(int i=2;i<=n;i++)
+{
+	c=a+b;
+	cout<< c;
+	
+	a=b;
+	b=c;
+}
 }
