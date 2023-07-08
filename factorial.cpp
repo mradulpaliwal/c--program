@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
-int main()
+int main()#include<iostream>
+using n
 {
 int n,f=1,v=1;
 cout<<"enter no";
