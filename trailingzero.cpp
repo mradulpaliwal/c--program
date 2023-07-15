@@ -8,8 +8,9 @@ cin>>n;
 for(int i=2;i<=n;i++)
 {
     fact=fact*i;
-
+    
 }
+
 
 
 while(fact%10==0)
